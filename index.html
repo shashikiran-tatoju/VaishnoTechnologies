@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Vaishno Technologies </title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./assets/index.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="favicon.gif" type="image/gif">
+<style>
+body {font-family: "Lato", sans-serif ;}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large"><b>VAISHNO TECHNOLOGIES </b></a>
+    <a href="#SalesServices" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Apple Sales/Services</a>
+    <a href="#dataRecovery" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Data Recovery</a>
+    <a href="#software" class="w3-bar-item w3-button w3-padding-large w3-hide-small">S/W & H/W Installation</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#SalesServices" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Apple Sales/Services</a>
+  <a href="#dataRecovery" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Data Recovery</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGayTL6Ta5xFPR8gxRfDgkfMgZqwfCrKT2nM16hR0q32lepA8v_4vXnQBI32iPLO2Uolc&usqp=CAU" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Los Angeles</h3>
+      <p><b>We had the best time playing at Venice Beach!</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREyebYRvb5_qszI6BLAuR7mXSJAXiZhmxuvsJwAAbRMPyWr8l84CJ159R9PJwNDv0yzrE&usqp=CAU" style="width:100%"> -->
+    <img src="https://digiquestacademy.edu.in/wp-content/uploads/2019/07/Career-Opportunities-in-VFX-Industry.jpg" />
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="data:image/jpeg;base64,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" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <b><p>Thank you, Chicago - A night we won't forget.</p>  </b>  
+    </div>
+  </div>
+
+  <!-- The IMac Sales and services  -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:80%" id="SalesServices">
+    <b><h2 class="w3-wide">Apple Sales/Services </h2></b>
+    <p class="w3-opacity"><i> We porvide sales and services of Apple products</i></p>
+    <p class="w3-justify">. </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>IMAC</p>
+        <img src="./assets/images/Imac.jpg" class="w3-round w3-margin-bottom w3-margin-top " alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>IMAC/MACKBOOKS</p>
+        <img src="./assets/images/ImacMacBook.jpg" class="w3-round w3-margin-bottom w3-margin-top paddingImg2" alt="Random Name" style="width:87%">
+      </div>
+      <div class="w3-third">
+        <p>MACBOOKS</p>
+        <img src="./assets/images/macbook2.jpg" class="w3-round w3-margin-bottom w3-margin-top paddingImg3" alt="Random Name" style="width:66%">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Data Recoveryl -->
+  <div class="w3-row w3-margin-bottom w3-black mrtb" id="dataRecovery">
+    <div class="w3-col m6  w3-padding-large">
+        <div class=" w3-padding-12 datarecovery">
+            <h1 class="w3-center">Data Recovery</h1>
+            <p class="w3-large w3-text-grey"> We are specialist at data recovery of salvaging inaccessible, lost, corrupted, damaged or formatted data from secondary storage, 
+                removable media or files, when the data stored in them cannot be accessed in a usual way.</p>
+            <ul>
+                <li>Solid State Drives (SSD)</li>
+                <li>Hard Disk Drives(HHD)</li>
+                <li>Non-Volatile Memory Express (NVME)</li>
+            </ul>
+      </div>
+    </div>
+    <div class="w3-col m6 w3-center w3-padding-large">
+        <img src="./assets/images/recover3.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      </div>
+  </div>
+
+   <!-- software and Hardware Installation -->
+   <div class="w3-row " id="software">
+
+    <div class="w3-col m6 w3-center w3-padding-large w3-margin-top">
+        <img src="./assets/images/recover3.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      </div>
+    <div class="w3-col m6  w3-padding-large">
+        <div class=" w3-padding-12 datarecovery">
+            <h1 class="w3-center">Software And Hardware Installation</h1>
+            <h4>Software Installation:-</h4>
+            <ul>
+                <li>Final Cut Pro </li>
+                <li>Adobe Premiere</li>
+                <li>Videos</li>
+            </ul>
+            <h4> Hardware Installation</h4>
+            <ul>
+                <li>Solid State Drives (SSD)</li>
+                <li>Hard Disk Drives(HHD)</li>
+                <li>Non-Volatile Memory Express (NVME)</li>
+            </ul>
+      </div>
+    </div>
+    
+  </div>
+
+
+   <!-- -------------------- -->
+
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:100%" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.395094198179!2d78.48953491445894!3d17.44079388804662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9a10b185ca1b%3A0xf2c0ecbe97e327e3!2sSwapnalok%20Complex!5e0!3m2!1sen!2sin!4v1618602430369!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <!-- <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div> -->
+
+    <div class="w3-col m6 w3-large w3-margin-bottom w3-padding-30">
+        <i class="fa fa-map-marker" style="width:30px"></i> Hyderabad<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +91-9989067536<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
+<script src="./assets/index.js" ></script>
+</body>
+</html>
