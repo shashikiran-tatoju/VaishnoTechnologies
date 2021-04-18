@@ -14,6 +14,9 @@
   .datarecovery{
       padding: 12px 100px 12px 100px ;
   }
+  .vfxInstallation {
+    padding: 12px 0px 12px 250px;
+}
   .datarecovery ul li {
       color: #999999;
   }
@@ -21,6 +24,16 @@
 
   .mrtb{
       padding: 120px 0px ;
+  }
+
+  .followus{
+      display: inline;
+      padding-right: 11px;
+      padding-left: 4px;
+  }
+
+  .pdtop{
+    padding-top: 16px;
   }
 
   @media only screen and (max-width: 1024px) {
